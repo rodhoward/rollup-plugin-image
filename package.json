@@ -1,9 +1,9 @@
 {
-  "name": "rollup-plugin-image-base46",
+  "name": "rollup-plugin-image-base64",
   "version": "1.0.0",
   "description": "Import JPG, PNG, GIF and SVG images",
-  "main": "dist/rollup-plugin-image.cjs.js",
-  "jsnext:main": "dist/rollup-plugin-image.es.js",
+  "main": "dist/rollup-plugin-image-base64.cjs.js",
+  "jsnext:main": "dist/rollup-plugin-image-base64.es.js",
   "files": [
     "src",
     "dist",
@@ -21,24 +21,24 @@
     "test": "echo \"no tests...\"",
     "pretest": "npm run build:cjs",
     "build": "npm run build:cjs && npm run build:es",
-    "build:cjs": "rollup -c -o dist/rollup-plugin-image.cjs.js -f cjs",
-    "build:es": "rollup -c -o dist/rollup-plugin-image.es.js -f es6",
+    "build:cjs": "rollup -c -o dist/rollup-plugin-image-base64.cjs.js -f cjs",
+    "build:es": "rollup -c -o dist/rollup-plugin-image-base64.es.js -f es6",
     "lint": "eslint src",
     "prepublish": "npm run lint && npm test && npm run build:es"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rollup/rollup-plugin-image.git"
+    "url": "git+https://github.com/rodhoward/rollup-plugin-image.git"
   },
   "keywords": [
     "rollup",
-    "modules",
+    "plugin",
     "images"
   ],
   "author": "Rich Harris & Rod Howard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rollup/rollup-plugin-image/issues"
+    "url": "https://github.com/rodhoward/rollup-plugin-image/issues"
   },
-  "homepage": "https://github.com/rollup/rollup-plugin-image#readme"
+  "homepage": "https://github.com/rodhoward/rollup-plugin-image#readme"
 }
