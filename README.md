@@ -2,6 +2,8 @@
 
 Import JPG, PNG, GIF and SVG files.
 
+Main change is to not create an Image object but just a base64 encoded string.
+
 ## Installation
 
 ```bash
