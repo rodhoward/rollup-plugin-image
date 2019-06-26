@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-image-base64",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Import JPG, PNG, GIF and SVG images",
   "main": "dist/rollup-plugin-image-base64.cjs.js",
   "jsnext:main": "dist/rollup-plugin-image-base64.es.js",
