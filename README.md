@@ -7,14 +7,14 @@ Main change is to not create an Image object but just a base64 encoded string.
 ## Installation
 
 ```bash
-npm install --save-dev rollup-plugin-image-base64
+npm install --save-dev rollup-plugin-image-src
 ```
 
 ## Usage
 
 ```js
 // rollup.config.js
-import image from "rollup-plugin-image-base64";
+import image from "rollup-plugin-image-src";
 
 export default {
   entry: "src/index.js",
